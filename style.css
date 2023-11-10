@@ -1,0 +1,120 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("./coffee_image.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header h1 {
+  color: #FFF;
+  font-family: Clicker Script;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cont {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid;
+  padding-top: 21px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .naver {
+  display: flex;
+  gap: 60px;
+}
+nav .btn {
+  display: flex;
+  gap: 62px;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  @import url(styleText);
+}
+nav li {
+  list-style: none;
+}
+nav .btn2 {
+  color: #1E1E1E;
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 14px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  padding: 10px 25px;
+}
+nav .btn1 {
+  border-bottom: 1px rgb(182, 182, 182);
+  text-decoration: none;
+  color: #FFF;
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration-line: underline;
+  line-height: normal;
+}
+
+.page {
+  color: #FFF;
+}
+.page .we {
+  color: #FFF;
+  font-family: Playfair Display;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 183px;
+}
+.page .cof {
+  color: #FFF;
+  font-family: Clicker Script;
+  font-size: 220px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.page .per {
+  color: #FFF;
+  font-family: Playfair Display;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+  width: 527px;
+}
+.page button {
+  color: #1E1E1E;
+  border: none;
+  font-family: Playfair Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 24px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  padding: 13px 26px;
+}/*# sourceMappingURL=style.css.map */
